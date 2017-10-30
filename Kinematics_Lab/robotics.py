@@ -4,7 +4,7 @@ from numpy.linalg import inv
 from math import sqrt, pi, cos, sin, pow, atan2, asin, acos
 
 # a, alpha, d, theta
-#mixed variables missing
+
 
 DOF0 = [0, -pi/2, 99]
 DOF1 = [120, 0, 0]
@@ -91,7 +91,10 @@ def rob16b_ikinematics(T):
 	
 	return (theta0, theta1, theta2, theta3, theta4, theta5)
 	
-
+def test_conn:
+	ctx = ssl.create_default_context(Purpose.CLIENT_AUTH)
+	ctx.options &= ~ssl.OP_NO_SSLv3
+	
 if __name__ == "__main__":
 	try:
 		while(True):
