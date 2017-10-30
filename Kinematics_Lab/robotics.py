@@ -95,6 +95,9 @@ def test_conn:
 	#save ssl cfs for future purposes
 	ctx = ssl.create_default_context(Purpose.CLIENT_AUTH)
 	ctx.options &= ~ssl.OP_NO_SSLv3
+
+def ping_all: 
+	#install packages for near future
 	
 if __name__ == "__main__":
 	try:
