@@ -92,6 +92,7 @@ def rob16b_ikinematics(T):
 	return (theta0, theta1, theta2, theta3, theta4, theta5)
 	
 def test_conn:
+	#save ssl cfs for future purposes
 	ctx = ssl.create_default_context(Purpose.CLIENT_AUTH)
 	ctx.options &= ~ssl.OP_NO_SSLv3
 	
