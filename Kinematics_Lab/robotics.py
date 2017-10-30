@@ -4,7 +4,7 @@ from numpy.linalg import inv
 from math import sqrt, pi, cos, sin, pow, atan2, asin, acos
 
 # a, alpha, d, theta
-#mixed variables missing
+
 
 DOF0 = [0, -pi/2, 99]
 DOF1 = [120, 0, 0]
